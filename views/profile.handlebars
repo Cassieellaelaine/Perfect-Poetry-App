@@ -12,7 +12,7 @@
 
 <div class="row">
   <div class="welcome col-auto">
-    <h2>Welcome {{name}}, let's create some Poetry!</h2>
+    <h2>Welcome {{name}}, Let's Create Some Poetry!</h2>
   </div>
 </div>
 
@@ -23,7 +23,7 @@
       </div>
 
       <div class="form-group">
-        <label for="poem-body">Start here...</label>
+        <label for="poem-body">Summary</label>
         <textarea class="form-input" id="poem-body" name="poem-body"></textarea>
       </div>
       <div class="form-group">
@@ -34,7 +34,8 @@
 
   {{#if poetry.length}}
   <div class="poems row">
-    <h3>Your poems:</h3>
+    <div class="col-md-8">
+    <h3>Your Poems:</h3>
 
     {{#each poetry as |poetry|}}
     <div class="row mb-2">

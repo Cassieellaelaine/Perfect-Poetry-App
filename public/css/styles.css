@@ -37,13 +37,14 @@ body {
 }
 
 .welcome, .h3{
-  color:   rgb(117, 189, 99);
+  color: whitesmoke;
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .poems{
-  color:  rgb(117, 189, 99);
+  color:  rgb(0, 0, 0);
+  font-weight: bolder;
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   border: whitesmoke;
@@ -58,6 +59,7 @@ body {
 
 .poetry{
   border-radius: 2%;
+  font-weight: bold;
   text-align: center;
   opacity: 0.8;
   background-image: url(../images/poem.jpeg);
@@ -68,7 +70,7 @@ body {
   /* border: solid 2px black; */
   width: 100%;
   padding: 2%;
-  color: black;
+  color: white;
 }
 
 .form-group label{
